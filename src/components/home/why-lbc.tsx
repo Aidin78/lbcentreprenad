@@ -60,7 +60,7 @@ export function WhyLbc() {
                 className="reveal grid gap-4 border-b border-graphite/20 py-10 sm:grid-cols-[1fr_1.1fr] sm:gap-10 lg:py-14"
               >
                 <dt className="flex items-baseline gap-4 font-display text-display-md font-semibold [font-stretch:112%]">
-                  <span className="text-xs font-semibold tracking-[0.16em] text-copper-deep tabular-nums [font-stretch:100%]">
+                  <span className="text-xs font-semibold tracking-[0.16em] text-brand-deep tabular-nums [font-stretch:100%]">
                     0{i + 1}
                   </span>
                   {value.name}

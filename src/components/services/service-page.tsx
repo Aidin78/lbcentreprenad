@@ -72,7 +72,7 @@ export function ServicePage({ service }: { service: Service }) {
         <div className="container-page grid gap-10 py-20 lg:grid-cols-12 lg:py-28">
           <span
             aria-hidden="true"
-            className="hidden h-px bg-copper-light lg:col-span-2 lg:mt-6 lg:block"
+            className="hidden h-px bg-brand-light lg:col-span-2 lg:mt-6 lg:block"
           />
           <p className="reveal font-display text-display-md font-medium [font-stretch:106%] lg:col-span-9 lg:col-start-4">
             {detail.statement}
@@ -91,7 +91,7 @@ export function ServicePage({ service }: { service: Service }) {
                 <li key={section.heading}>
                   <a
                     href={`#avsnitt-${i + 1}`}
-                    className="-ml-px block border-l border-transparent pl-4 text-ink-muted transition-colors hover:border-copper-deep hover:text-graphite"
+                    className="-ml-px block border-l border-transparent pl-4 text-ink-muted transition-colors hover:border-brand-deep hover:text-graphite"
                   >
                     {section.heading}
                   </a>
@@ -111,7 +111,7 @@ export function ServicePage({ service }: { service: Service }) {
                 "reveal border-t border-graphite/15 py-14 first:border-t-0 first:pt-0 lg:py-16",
               )}
             >
-              <p className="text-xs font-semibold tracking-[0.16em] text-copper-deep tabular-nums">
+              <p className="text-xs font-semibold tracking-[0.16em] text-brand-deep tabular-nums">
                 {String(i + 1).padStart(2, "0")}
               </p>
               <h2
@@ -134,7 +134,7 @@ export function ServicePage({ service }: { service: Service }) {
                     >
                       <Check
                         aria-hidden="true"
-                        className="mt-0.5 size-4 shrink-0 text-copper-deep"
+                        className="mt-0.5 size-4 shrink-0 text-brand-deep"
                         strokeWidth={2.25}
                       />
                       {item}
@@ -143,7 +143,7 @@ export function ServicePage({ service }: { service: Service }) {
                 </ul>
               )}
               {section.note && (
-                <p className="mt-8 border-l-2 border-copper pl-5 text-[1.0625rem] leading-relaxed text-ink-strong">
+                <p className="mt-8 border-l-2 border-brand pl-5 text-[1.0625rem] leading-relaxed text-ink-strong">
                   {section.note}
                 </p>
               )}
@@ -174,7 +174,7 @@ export function ServicePage({ service }: { service: Service }) {
                 key={reason}
                 className="reveal flex min-h-36 flex-col justify-between gap-8 bg-limestone py-6 sm:p-7"
               >
-                <span className="text-xs font-semibold tracking-[0.16em] text-copper-deep tabular-nums">
+                <span className="text-xs font-semibold tracking-[0.16em] text-brand-deep tabular-nums">
                   0{i + 1}
                 </span>
                 <span className="text-lg font-semibold tracking-[-0.01em]">
@@ -213,7 +213,7 @@ export function ServicePage({ service }: { service: Service }) {
                   </span>
                   <span className="mt-4 flex items-start justify-between gap-4">
                     <span>
-                      <span className="block text-xs font-semibold text-copper-deep tabular-nums">
+                      <span className="block text-xs font-semibold text-brand-deep tabular-nums">
                         {item.index}
                       </span>
                       <span className="mt-1 block text-lg font-semibold">
@@ -272,7 +272,7 @@ function ServiceGallery({ images }: { images: ProjectImage[] }) {
             <span className="link-underline">Se alla projekt</span>
             <ArrowUpRight
               aria-hidden="true"
-              className="size-4 text-copper-light transition-transform duration-500 ease-out-expo group-hover:rotate-45"
+              className="size-4 text-brand-light transition-transform duration-500 ease-out-expo group-hover:rotate-45"
             />
           </Link>
         </div>

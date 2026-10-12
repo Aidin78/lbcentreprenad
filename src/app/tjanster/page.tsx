@@ -64,7 +64,7 @@ export default function ServicesPage() {
                   href={`#${service.key}`}
                   className="group flex items-center gap-4 py-4 text-[0.9875rem] font-medium"
                 >
-                  <span className="text-xs font-semibold text-copper-deep tabular-nums">
+                  <span className="text-xs font-semibold text-brand-deep tabular-nums">
                     {service.index}
                   </span>
                   <span className="flex-1">{service.name}</span>
@@ -116,7 +116,7 @@ export default function ServicesPage() {
               >
                 <p
                   aria-hidden="true"
-                  className="font-display text-[5rem] leading-none font-semibold text-copper/80 tabular-nums [font-stretch:112%] lg:text-[7rem]"
+                  className="font-display text-[5rem] leading-none font-semibold text-brand/80 tabular-nums [font-stretch:112%] lg:text-[7rem]"
                 >
                   {service.index}
                 </p>
@@ -139,7 +139,7 @@ export default function ServicesPage() {
                     >
                       <Check
                         aria-hidden="true"
-                        className="mt-0.5 size-4 shrink-0 text-copper-deep"
+                        className="mt-0.5 size-4 shrink-0 text-brand-deep"
                         strokeWidth={2.25}
                       />
                       {item}
@@ -185,7 +185,7 @@ export default function ServicesPage() {
               </span>
               <ArrowRight
                 aria-hidden="true"
-                className="size-4 text-copper-light transition-transform duration-500 ease-out-expo group-hover:translate-x-1"
+                className="size-4 text-brand-light transition-transform duration-500 ease-out-expo group-hover:translate-x-1"
               />
             </Link>
           </div>
@@ -194,7 +194,7 @@ export default function ServicesPage() {
               <li key={item} className="flex items-center gap-3">
                 <Check
                   aria-hidden="true"
-                  className="size-6 text-copper-light"
+                  className="size-6 text-brand-light"
                   strokeWidth={2}
                 />
                 <span className="text-limestone">{item}</span>

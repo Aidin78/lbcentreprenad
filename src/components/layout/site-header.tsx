@@ -80,14 +80,14 @@ export function SiteHeader() {
           >
             <Phone
               aria-hidden="true"
-              className="size-4 text-copper-deep"
+              className="size-4 text-brand-deep"
               strokeWidth={2}
             />
             <span className="link-underline">{site.phone.display}</span>
           </a>
           <a
             href={site.phone.href}
-            className="inline-flex size-11 items-center justify-center text-copper-deep md:hidden"
+            className="inline-flex size-11 items-center justify-center text-brand-deep md:hidden"
           >
             <Phone aria-hidden="true" className="size-5" strokeWidth={1.75} />
             <span className="sr-only">Ring {site.phone.display}</span>

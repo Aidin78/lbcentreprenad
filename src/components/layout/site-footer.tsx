@@ -32,7 +32,7 @@ export function SiteFooter() {
               <span className="link-underline">{site.phone.display}</span>
               <ArrowUpRight
                 aria-hidden="true"
-                className="size-6 text-copper-light transition-transform duration-500 ease-out-expo group-hover:translate-x-1 group-hover:-translate-y-1"
+                className="size-6 text-brand-light transition-transform duration-500 ease-out-expo group-hover:translate-x-1 group-hover:-translate-y-1"
                 strokeWidth={1.5}
               />
             </a>
@@ -82,7 +82,7 @@ export function SiteFooter() {
                 href={site.mapUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="link-underline text-copper-light"
+                className="link-underline text-brand-light"
               >
                 Visa på karta
               </a>

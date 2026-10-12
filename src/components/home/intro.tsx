@@ -45,7 +45,7 @@ export function Intro() {
                 <span className="link-underline">Mer om oss</span>
                 <ArrowRight
                   aria-hidden="true"
-                  className="size-4 text-copper-deep transition-transform duration-500 ease-out-expo group-hover:translate-x-1"
+                  className="size-4 text-brand-deep transition-transform duration-500 ease-out-expo group-hover:translate-x-1"
                 />
               </Link>
             </div>

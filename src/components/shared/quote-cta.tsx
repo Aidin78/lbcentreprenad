@@ -21,7 +21,7 @@ export function QuoteCta({
   return (
     <section
       aria-label="Offertförfrågan"
-      className="dark-surface grain bg-copper-deep text-limestone"
+      className="dark-surface grain bg-brand-deep text-limestone"
     >
       <div className="container-page grid lg:grid-cols-12">
         <div className="py-20 lg:col-span-7 lg:py-28 lg:pr-16">

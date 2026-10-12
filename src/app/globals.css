@@ -8,9 +8,10 @@
   --color-graphite: #242825;
   --color-graphite-soft: #2f3430;
   --color-graphite-line: #424843;
-  --color-copper: #b66a46;
-  --color-copper-deep: #8a4a2d;
-  --color-copper-light: #d4936c;
+  --color-brand: #2f8a3f;
+  --color-brand-deep: #0b6125;
+  --color-brand-light: #8cc596;
+  --color-brand-ink: #1c3a24;
   --color-forest: #536457;
   --color-ink-muted: #555953;
   --color-ink-strong: #4f534e;
@@ -92,17 +93,17 @@
   }
 
   ::selection {
-    background-color: var(--color-copper);
+    background-color: var(--color-brand);
     color: var(--color-limestone);
   }
 
   :focus-visible {
-    outline: 2px solid var(--color-copper-deep);
+    outline: 2px solid var(--color-brand-deep);
     outline-offset: 3px;
   }
 
   .dark-surface :focus-visible {
-    outline-color: var(--color-copper-light);
+    outline-color: var(--color-brand-light);
   }
 
   h1,

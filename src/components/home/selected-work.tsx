@@ -100,7 +100,7 @@ export function SelectedWork() {
                 />
                 <span className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-4 bg-gradient-to-t from-graphite/85 via-graphite/30 to-transparent p-4 pt-16 transition-[padding] duration-500 ease-out-expo sm:p-5 sm:pt-20 lg:translate-y-2 lg:opacity-0 lg:transition-[opacity,translate] lg:group-hover:translate-y-0 lg:group-hover:opacity-100 lg:group-focus-visible:translate-y-0 lg:group-focus-visible:opacity-100">
                   <span>
-                    <span className="block text-[0.6875rem] font-semibold tracking-[0.16em] text-copper-light uppercase">
+                    <span className="block text-[0.6875rem] font-semibold tracking-[0.16em] text-brand-light uppercase">
                       {projectCategories[image.category]}
                     </span>
                     <span className="mt-1 block text-sm font-medium sm:text-base">

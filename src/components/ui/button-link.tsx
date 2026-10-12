@@ -8,12 +8,12 @@ type Variant = "primary" | "outline" | "outline-light" | "light";
 
 const variants: Record<Variant, string> = {
   primary:
-    "bg-copper-deep text-limestone hover:bg-graphite focus-visible:bg-graphite",
+    "bg-brand-deep text-limestone hover:bg-graphite focus-visible:bg-graphite",
   outline:
     "border border-graphite/80 text-graphite hover:bg-graphite hover:text-limestone",
   "outline-light":
     "border border-limestone/50 text-limestone hover:border-limestone hover:bg-limestone hover:text-graphite",
-  light: "bg-limestone text-graphite hover:bg-copper-light",
+  light: "bg-limestone text-graphite hover:bg-brand-light",
 };
 
 type ButtonLinkProps = {

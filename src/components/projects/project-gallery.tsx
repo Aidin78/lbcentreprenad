@@ -82,7 +82,7 @@ export function ProjectGallery({
               <span
                 className={cn(
                   "text-xs tabular-nums",
-                  active ? "text-copper-light" : "text-ink-muted",
+                  active ? "text-brand-light" : "text-ink-muted",
                 )}
               >
                 {countFor(f.value)}
@@ -117,7 +117,7 @@ export function ProjectGallery({
               />
               <span className="absolute inset-x-0 bottom-0 flex items-end bg-gradient-to-t from-graphite/80 to-transparent p-3 pt-12 text-limestone opacity-100 transition-opacity duration-500 sm:p-4 sm:pt-16 lg:opacity-0 lg:group-hover:opacity-100 lg:group-focus-visible:opacity-100">
                 <span>
-                  <span className="block text-[0.625rem] font-semibold tracking-[0.16em] text-copper-light uppercase sm:text-[0.6875rem]">
+                  <span className="block text-[0.625rem] font-semibold tracking-[0.16em] text-brand-light uppercase sm:text-[0.6875rem]">
                     {projectCategories[item.category]}
                   </span>
                   <span className="mt-0.5 block text-xs font-medium sm:text-sm">

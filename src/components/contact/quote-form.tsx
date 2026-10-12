@@ -168,7 +168,7 @@ function QuoteFormInner({ onSuccess }: { onSuccess: () => void }) {
           ref={statusRef}
           tabIndex={-1}
           role="alert"
-          className="border-l-2 border-copper-deep bg-copper/10 px-5 py-4 text-[0.9375rem] font-medium text-graphite outline-none sm:col-span-2"
+          className="border-l-2 border-brand-deep bg-brand/10 px-5 py-4 text-[0.9375rem] font-medium text-graphite outline-none sm:col-span-2"
         >
           {state.message}
         </div>
@@ -271,7 +271,7 @@ function QuoteFormInner({ onSuccess }: { onSuccess: () => void }) {
         <button
           type="submit"
           disabled={pending}
-          className="inline-flex min-h-13 items-center justify-center gap-3 bg-copper-deep px-7 py-3.5 font-semibold text-limestone transition-colors duration-300 hover:bg-graphite disabled:cursor-wait disabled:opacity-80"
+          className="inline-flex min-h-13 items-center justify-center gap-3 bg-brand-deep px-7 py-3.5 font-semibold text-limestone transition-colors duration-300 hover:bg-graphite disabled:cursor-wait disabled:opacity-80"
         >
           {pending && (
             <LoaderCircle aria-hidden="true" className="size-5 animate-spin" />
@@ -286,7 +286,7 @@ function QuoteFormInner({ onSuccess }: { onSuccess: () => void }) {
 type FieldElement = HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement;
 
 const inputClass =
-  "block min-h-13 w-full border border-graphite/25 bg-limestone px-4 text-base text-graphite transition-colors duration-200 placeholder:text-ink-muted/70 hover:border-graphite/50 focus:border-graphite focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-0 focus-visible:outline-copper-deep aria-invalid:border-copper-deep";
+  "block min-h-13 w-full border border-graphite/25 bg-limestone px-4 text-base text-graphite transition-colors duration-200 placeholder:text-ink-muted/70 hover:border-graphite/50 focus:border-graphite focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-0 focus-visible:outline-brand-deep aria-invalid:border-brand-deep";
 
 function Field({
   label,
@@ -325,7 +325,7 @@ function Field({
       {error && (
         <p
           id={`${htmlFor}-fel`}
-          className="mt-2 text-sm font-medium text-copper-deep"
+          className="mt-2 text-sm font-medium text-brand-deep"
         >
           {error}
         </p>

@@ -28,7 +28,7 @@ export function ServiceIndex() {
                 <span
                   className={cn(
                     "pt-2 text-xs font-semibold tracking-[0.16em] tabular-nums transition-colors duration-300",
-                    isActive ? "text-copper-deep" : "text-ink-muted",
+                    isActive ? "text-brand-deep" : "text-ink-muted",
                   )}
                 >
                   {service.index}
@@ -72,7 +72,7 @@ export function ServiceIndex() {
                   className={cn(
                     "mt-1.5 inline-flex size-10 items-center justify-center border transition-colors duration-300",
                     isActive
-                      ? "border-copper-deep bg-copper-deep text-limestone"
+                      ? "border-brand-deep bg-brand-deep text-limestone"
                       : "border-graphite/25 text-graphite",
                   )}
                 >
@@ -110,7 +110,7 @@ export function ServiceIndex() {
           </div>
           <div className="mt-4 flex items-start justify-between gap-6 text-sm">
             <p className="font-semibold">
-              <span className="text-copper-deep tabular-nums">
+              <span className="text-brand-deep tabular-nums">
                 {current.index}
               </span>{" "}
               {current.name}

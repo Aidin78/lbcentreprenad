@@ -51,7 +51,7 @@ export function Process() {
             <li key={step.title} className="reveal relative">
               <span
                 aria-hidden="true"
-                className="absolute top-1 -left-10 size-3 -translate-x-[5px] bg-copper md:hidden lg:-top-14 lg:left-0 lg:block lg:translate-x-0 lg:-translate-y-[5px]"
+                className="absolute top-1 -left-10 size-3 -translate-x-[5px] bg-brand md:hidden lg:-top-14 lg:left-0 lg:block lg:translate-x-0 lg:-translate-y-[5px]"
               />
               <p
                 aria-hidden="true"

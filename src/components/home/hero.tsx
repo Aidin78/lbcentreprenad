@@ -22,7 +22,7 @@ export function Hero() {
     <section className="container-page grid gap-x-10 pt-8 pb-20 lg:grid-cols-12 lg:pt-14 lg:pb-28">
       <div className="lg:col-span-7 lg:row-start-1">
         <p className="flex animate-fade items-center gap-3 text-xs font-semibold tracking-[0.16em] text-ink-muted uppercase">
-          <span className="size-2 bg-copper" aria-hidden="true" />
+          <span className="size-2 bg-brand" aria-hidden="true" />
           {site.address.city} · {site.areaServed}
         </p>
         <h1 className="mt-6 font-display font-semibold [font-stretch:112%] lg:mt-10">
@@ -104,7 +104,7 @@ export function Hero() {
               key={item}
               className="flex flex-col gap-1 border-b border-graphite/15 py-4 pr-4 text-sm font-medium sm:border-b-0"
             >
-              <span className="text-[0.6875rem] text-copper-deep tabular-nums">
+              <span className="text-[0.6875rem] text-brand-deep tabular-nums">
                 0{i + 1}
               </span>
               {item}

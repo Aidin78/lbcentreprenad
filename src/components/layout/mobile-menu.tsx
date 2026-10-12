@@ -61,7 +61,7 @@ export function MobileMenu({ pathname }: { pathname: string }) {
                     aria-current={
                       isCurrentSection(pathname, item.href) ? "page" : undefined
                     }
-                    className="flex items-baseline gap-5 py-5 font-display text-4xl font-semibold tracking-tight [font-stretch:112%] aria-[current=page]:text-copper-light"
+                    className="flex items-baseline gap-5 py-5 font-display text-4xl font-semibold tracking-tight [font-stretch:112%] aria-[current=page]:text-brand-light"
                   >
                     <span className="text-xs font-semibold tracking-[0.16em] text-ash tabular-nums">
                       0{i + 1}

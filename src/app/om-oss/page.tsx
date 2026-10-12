@@ -115,7 +115,7 @@ export default function AboutPage() {
                 key={item.title}
                 className="reveal border-t border-graphite/25 pt-6"
               >
-                <span className="text-xs font-semibold tracking-[0.16em] text-copper-deep tabular-nums">
+                <span className="text-xs font-semibold tracking-[0.16em] text-brand-deep tabular-nums">
                   0{i + 1}
                 </span>
                 <h3 className="mt-4 text-xl font-semibold tracking-[-0.01em]">

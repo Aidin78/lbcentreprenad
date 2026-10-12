@@ -27,7 +27,7 @@ export function Eyebrow({
         <span
           className={cn(
             "tabular-nums",
-            tone === "dark" ? "text-copper-deep" : "text-copper-light",
+            tone === "dark" ? "text-brand-deep" : "text-brand-light",
           )}
         >
           {index}

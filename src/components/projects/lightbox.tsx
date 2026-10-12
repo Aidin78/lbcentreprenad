@@ -83,7 +83,7 @@ export function Lightbox({ items, index, onIndexChange }: LightboxProps) {
               />
             </div>
             <figcaption className="mt-4 text-center">
-              <span className="block text-[0.6875rem] font-semibold tracking-[0.16em] text-copper-light uppercase">
+              <span className="block text-[0.6875rem] font-semibold tracking-[0.16em] text-brand-light uppercase">
                 {projectCategories[item.category]}
               </span>
               <span className="mt-1 block text-[0.9375rem]">

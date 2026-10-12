@@ -80,7 +80,7 @@ export default function ContactPage() {
                 href={site.mapUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group mt-3 inline-flex items-center gap-1.5 text-[0.9375rem] font-semibold text-copper-deep"
+                className="group mt-3 inline-flex items-center gap-1.5 text-[0.9375rem] font-semibold text-brand-deep"
               >
                 <span className="link-underline">Öppna i Google Maps</span>
                 <ArrowUpRight
@@ -124,7 +124,7 @@ export default function ContactPage() {
           id="offert"
           className="scroll-mt-24 bg-limestone-deep p-6 sm:p-10 lg:col-span-7 lg:p-12"
         >
-          <p className="text-xs font-semibold tracking-[0.16em] text-copper-deep uppercase">
+          <p className="text-xs font-semibold tracking-[0.16em] text-brand-deep uppercase">
             Kostnadsfritt
           </p>
           <h2 className="mt-4 font-display text-display-md font-semibold [font-stretch:110%]">
@@ -152,7 +152,7 @@ function ContactRow({
 }) {
   return (
     <li className="grid grid-cols-[2.5rem_1fr] gap-x-4 border-b border-graphite/15 py-7">
-      <span aria-hidden="true" className="pt-1 text-copper-deep">
+      <span aria-hidden="true" className="pt-1 text-brand-deep">
         {icon}
       </span>
       <div>
